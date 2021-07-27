@@ -1,11 +1,11 @@
 // Generales
 @media only screen and (max-width:400px) {
     .header {
-        & .menu {
+        .menu {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            & ul {
+            ul {
                 margin: 0;
                 padding: 0.4rem;
                 display: flex;
@@ -14,20 +14,20 @@
                 align-items: center;
                 text-align: center;
             }
-            & li {
+            li {
                 display: inline;
                 text-align: center;
                 padding:0.4rem;
             }
-            & a {
+            a {
                 font-size: 0.8rem;
             }
         }
-        & .logo {
-            & img {
+        .logo {
+            img {
                 display: none;
             }
-            & .logoalt {
+            .logoalt {
                 display: block;
             }
         }
@@ -35,9 +35,9 @@
 }
 @media only screen and (max-width:477px) {
     .header {
-        & .menu {
+        .menu {
             justify-content: center;
-            & ul {
+            ul {
                 margin: 0;
                 padding: 0.4rem;
                 display: flex;
@@ -45,11 +45,11 @@
                 align-items: center;
                 text-align: center;
             }
-            & li {
+            li {
                 text-align: center;
                 padding:0.4rem;
             }
-            & a {
+            a {
                 font-size: 0.8rem;
             }
         }
@@ -57,9 +57,9 @@
 }
 @media only screen and (max-width:640px) and (min-width:478px){
     .header {
-        & .menu {
+        .menu {
             justify-content: center;
-            & ul {
+            ul {
                 margin: 0;
                 padding: 0.4rem;
                 display: flex;
@@ -67,11 +67,11 @@
                 align-items: center;
                 text-align: center;
             }
-            & li {
+            li {
                 text-align: center;
                 padding:0.4rem;
             }
-            & a {
+            a {
                 font-size: 1rem;
             }
         }
@@ -79,9 +79,9 @@
 }
 @media only screen and (max-width:767px) and (min-width:641px){
     .header {
-        & .menu {
+        .menu {
             justify-content: center;
-            & ul {
+            ul {
                 margin: 0;
                 padding: 0.4rem;
                 display: flex;
@@ -89,11 +89,11 @@
                 align-items: center;
                 text-align: center;
             }
-            & li {
+            li {
                 text-align: center;
                 padding:0.4rem;
             }
-            & a {
+            a {
                 font-size: 1.4rem;
             }
         }
@@ -198,7 +198,7 @@
 
 @media only screen and (min-width:1200px) {
     .contenedorPersonaje {
-        & .synopsis {
+        .synopsis {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
@@ -207,7 +207,7 @@
 }
 @media only screen and (max-width:1199px) {
     .contenedorPersonaje {
-        & .portrait {
+        .portrait {
             padding-top: 1rem;
         }
     }
@@ -217,7 +217,7 @@
 
 @media only screen and (max-width:520px) {
     .galeria  {
-        & img {
+        img {
             width: 90%;
             height: 80%;
             margin: 0 auto;
@@ -229,7 +229,7 @@
 
 @media only screen and (max-width:999px) {
     .atlus  {
-        & img {
+        img {
             display: none;
         }
     }
