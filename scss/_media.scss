@@ -1,0 +1,236 @@
+// Generales
+@media only screen and (max-width:400px) {
+    .header {
+        & .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            & ul {
+                margin: 0;
+                padding: 0.4rem;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            & li {
+                display: inline;
+                text-align: center;
+                padding:0.4rem;
+            }
+            & a {
+                font-size: 0.8rem;
+            }
+        }
+        & .logo {
+            & img {
+                display: none;
+            }
+            & .logoalt {
+                display: block;
+            }
+        }
+    }
+}
+@media only screen and (max-width:477px) {
+    .header {
+        & .menu {
+            justify-content: center;
+            & ul {
+                margin: 0;
+                padding: 0.4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            & li {
+                text-align: center;
+                padding:0.4rem;
+            }
+            & a {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width:640px) and (min-width:478px){
+    .header {
+        & .menu {
+            justify-content: center;
+            & ul {
+                margin: 0;
+                padding: 0.4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            & li {
+                text-align: center;
+                padding:0.4rem;
+            }
+            & a {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width:767px) and (min-width:641px){
+    .header {
+        & .menu {
+            justify-content: center;
+            & ul {
+                margin: 0;
+                padding: 0.4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            & li {
+                text-align: center;
+                padding:0.4rem;
+            }
+            & a {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:991px) {
+    footer {
+        .esrb {
+            margin-top: 1.2rem;
+        }
+        .rrss {
+            border: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+            img {
+                padding: 0.5rem;
+            }
+        }
+        .platforms {
+            border: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+            }
+        }
+    }
+@media only screen and (max-width:520px) {
+    footer {
+        .esrb {
+            margin-top: 1rem;
+        }
+        .rrss {
+            border: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+            img {
+                padding: 0.5rem;
+            }
+        }
+        .platforms {
+            border: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+            .platformLogoContainer {
+                .ps4Logo {
+                    height: 25px;
+                }
+                .steamLogo {
+                    height: 30px;
+                }
+                .switchLogo {
+                    height:25px
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:391px) {
+    footer {
+        .esrb {
+            margin-top: 1rem;
+        }
+        .rrss {
+            display: flex;
+            justify-content: center;
+            margin-top: 0.1rem;
+            margin-bottom: 0.5rem;
+            border: 0;
+            img {
+                padding: 0.2rem;
+            }
+        }
+        .platforms {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+            border: 0;
+            .platformLogoContainer {
+                .ps4Logo {
+                    height: 18px;
+                }
+                .steamLogo {
+                    height: 22px;
+                }
+                .switchLogo {
+                    height:21px
+                }
+            }
+        }
+    }
+}
+
+// Personajes
+
+@media only screen and (min-width:1200px) {
+    .contenedorPersonaje {
+        & .synopsis {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    }
+}
+@media only screen and (max-width:1199px) {
+    .contenedorPersonaje {
+        & .portrait {
+            padding-top: 1rem;
+        }
+    }
+}
+
+// Galería
+
+@media only screen and (max-width:520px) {
+    .galeria  {
+        & img {
+            width: 90%;
+            height: 80%;
+            margin: 0 auto;
+        }
+    }      
+}
+
+// Formulario
+
+@media only screen and (max-width:999px) {
+    .atlus  {
+        & img {
+            display: none;
+        }
+    }
+}     

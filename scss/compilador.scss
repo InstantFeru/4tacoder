@@ -1,0 +1,140 @@
+@import "index";
+@import "personajes";
+@import "galeria";
+@import "comprar";
+@import "contacto";
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+body {
+    min-height: 100%;
+    background-image: url(../images/city_bg2.png), url(../images/filmeffect2.png), linear-gradient(to bottom right, red,55%,black); 
+    background-size: 80%, cover, cover;
+    background-position: bottom;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header {
+    background-color: rgba(0, 0, 0, 0.714);
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        // background-image: url(../images/dialog.png);
+        // background-repeat: no-repeat;
+        // background-position-x: right;
+        li {
+            display: inline-block;
+            padding: 1rem;
+            }
+        a {
+            font-family: 'Staatliches', cursive;
+            font-weight: 400;
+            font-size: 2.8rem;
+            text-decoration: none;
+            color: whitesmoke;
+            &:hover {
+                color: red;
+                transition: 200ms;
+            }
+            }
+        }
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            padding: 0.4rem;
+            max-height: 10rem;
+        }
+        .logoalt {
+            display: none;
+            img {
+                width: 30%;
+            }
+        }
+    }
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    .rrss {
+        border-left: 1px dotted blanchedalmond;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            height: 40px;
+            }
+        }
+        .rrssLogoContainer {
+            img {
+                padding: 0.3rem;
+            }
+        }
+    }
+    .platforms {
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px dotted blanchedalmond;
+        border-left: 1px dotted blanchedalmond;
+        .platformLogoContainer {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-bottom: 1.2rem;
+            .ps4Logo {
+                margin: 0 1rem 0 1rem;
+                height: 35px;
+            }
+            .steamLogo {
+                margin: 0 0.2rem 0 0.2rem;
+                height: 40px;
+            }
+            .switchLogo {
+                margin: 0 0.2rem 0 0.2rem;
+            }
+        }
+        .available {
+            margin-bottom: 1.2rem;
+            h3 {
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 1.8rem;
+                color:whitesmoke;
+                text-shadow: -2px 2px #ff0000ab;   
+            }
+        }
+    }
+    .esrb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            height: 80px;
+    }
+ }
+
+.titular {
+    width: 100%;
+    padding-top: 1rem;
+    text-align: center
+}   
+.subtitle {
+    font-family: 'Bangers', cursive;
+    font-size: 2.2rem;
+    color: whitesmoke; 
+}
+
+@import "_media.scss";

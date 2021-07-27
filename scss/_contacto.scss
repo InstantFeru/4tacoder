@@ -1,0 +1,48 @@
+@import "mixins";
+
+
+
+.contacto {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-image: url(../images/charabg1.jpg);
+    h1 {
+        padding-top: 1rem;
+        text-align: center;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 3rem;
+        color: whitesmoke;
+        text-shadow: -3px 3px red;
+    }
+    .formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 2rem;
+        label {
+            @include paragraph();
+            font-size: 0.9rem;
+        }
+        .name {
+            padding-top: 0.9rem;
+        }
+        .version {
+            padding-top: 0.9rem;
+        }
+        .newsletter {
+            padding-top: 0.9rem;
+        }
+        .text {
+            padding-top: 0.9rem;
+        }   
+    }
+    .atlus {
+        @include centerflex();
+        padding: 2rem;
+    }
+}
+.mona {
+    margin-top: 2.8rem;
+    margin-bottom: 2.8rem;
+    @include centerflex ();
+}

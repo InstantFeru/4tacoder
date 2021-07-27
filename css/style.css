@@ -1,0 +1,558 @@
+.main {
+  background-image: url(../images/bgdiv1.jpg);
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  .main h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 5rem;
+    text-shadow: -4px 4px #00000050; }
+  .main .desc {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem;
+    padding-top: 2.8rem; }
+    .main .desc .initial {
+      box-shadow: -4px 4px #00000070; }
+    .main .desc p {
+      font-family: 'M PLUS 1p', sans-serif;
+      color: whitesmoke; }
+  .main .render img {
+    max-width: 100%; }
+
+.vidya1 {
+  padding: 0;
+  background-image: url(../images/bg3.jpg);
+  background-position: right;
+  box-sizing: border-box; }
+  .vidya1 .vidya2 {
+    --bs-gutter-x: 0;
+    padding: 0;
+    box-sizing: border-box; }
+    .vidya1 .vidya2 img {
+      max-height: 706px;
+      position: absolute;
+      z-index: 300000; }
+    .vidya1 .vidya2 video {
+      border: #ffffff50;
+      max-height: 706px;
+      position: relative;
+      padding-left: 15rem; }
+    .vidya1 .vidya2 .v2d {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+      .vidya1 .vidya2 .v2d h2 {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 4rem;
+        color: black;
+        text-shadow: -4px 4px #ffffff; }
+
+.trailer {
+  background-image: url(../images/bgdiv2.jpg);
+  background-size: cover; }
+  .trailer .descvideo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem; }
+    .trailer .descvideo p {
+      font-family: 'Heebo', sans-serif;
+      font-weight: 800;
+      color: black;
+      padding-top: 0;
+      margin-top: 0; }
+    .trailer .descvideo .subtitle {
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 4rem;
+      color: black;
+      text-shadow: -4px 4px #ffffff;
+      padding-top: 2rem;
+      padding-bottom: 0;
+      margin-bottom: 0; }
+  .trailer .iframewrapper {
+    margin-top: 5rem;
+    position: relative;
+    overflow: hidden;
+    height: 50%;
+    width: 100%;
+    padding-top: 56.25%; }
+    .trailer .iframewrapper iframe {
+      border-radius: 1rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      border: none; }
+
+.contenedorPersonaje {
+  margin-top: 2rem; }
+
+.charaContainer1 {
+  background-image: url(../images/charabg1.jpg); }
+  .charaContainer1 .charaDesc {
+    padding-top: 2rem; }
+    .charaContainer1 .charaDesc h2 {
+      font-family: 'Staatliches', cursive;
+      font-weight: 400;
+      font-size: 3rem;
+      text-decoration: none;
+      color: whitesmoke; }
+    .charaContainer1 .charaDesc h3 {
+      font-family: 'Staatliches', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      text-decoration: none;
+      color: whitesmoke; }
+    .charaContainer1 .charaDesc p {
+      color: whitesmoke; }
+  .charaContainer1 .charaPortrait {
+    display: flex;
+    align-items: center; }
+    .charaContainer1 .charaPortrait img {
+      height: 90%;
+      box-shadow: -5px 5px white; }
+
+.charaContainer2 {
+  background-image: url(../images/charabg2.jpg); }
+  .charaContainer2 .charaDesc {
+    padding-top: 2rem; }
+    .charaContainer2 .charaDesc h2 {
+      font-family: 'Staatliches', cursive;
+      font-weight: 400;
+      font-size: 3rem;
+      text-decoration: none;
+      color: whitesmoke; }
+    .charaContainer2 .charaDesc h3 {
+      font-family: 'Staatliches', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      text-decoration: none;
+      color: whitesmoke; }
+    .charaContainer2 .charaDesc p {
+      color: whitesmoke; }
+  .charaContainer2 .charaPortrait {
+    display: flex;
+    align-items: center; }
+    .charaContainer2 .charaPortrait img {
+      height: 90%;
+      box-shadow: -5px 5px white; }
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(../images/bgdiv1.jpg);
+  background-size: cover;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+  .galeria img {
+    width: 512px;
+    height: 288px;
+    padding: 10px;
+    margin: 0 auto; }
+  .galeria img:hover {
+    transform: scale(1.2); }
+  .galeria h1 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3.8rem;
+    text-shadow: -4px 4px #00000050; }
+
+.gameplay {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  background-color: rgba(0, 0, 0, 0.678); }
+  .gameplay .descvideo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .gameplay .descvideo p {
+      font-family: 'Heebo', sans-serif;
+      color: whitesmoke; }
+  .gameplay .iframewrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; }
+    .gameplay .iframewrapper iframe {
+      border-radius: 1rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      border: none; }
+
+.product1 {
+  background-image: url(../images/bgdiv3.jpg); }
+  .product1 .pImg {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .product1 .pDesc {
+    padding-top: 2rem; }
+    .product1 .pDesc h2 {
+      font-family: 'Staatliches', cursive;
+      font-weight: 400;
+      font-size: 2.2rem;
+      text-decoration: none;
+      color: whitesmoke; }
+    .product1 .pDesc h5 {
+      font-family: 'Staatliches', cursive;
+      font-weight: lighter;
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: whitesmoke; }
+    .product1 .pDesc p {
+      color: whitesmoke; }
+    .product1 .pDesc ul li {
+      color: whitesmoke; }
+
+.product2 {
+  background-image: url(../images/bgdiv4.jpg);
+  background-size: cover; }
+  .product2 .pImg {
+    padding-top: 3rem;
+    padding-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .product2 .pImg img {
+      width: 100%; }
+  .product2 .pDesc {
+    padding-top: 1rem;
+    padding-bottom: 3rem; }
+    .product2 .pDesc h2 {
+      font-family: 'Staatliches', cursive;
+      font-weight: 400;
+      font-size: 2.2rem;
+      text-decoration: none;
+      color: whitesmoke; }
+    .product2 .pDesc h5 {
+      font-family: 'Staatliches', cursive;
+      font-weight: lighter;
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: whitesmoke; }
+    .product2 .pDesc p {
+      color: whitesmoke; }
+    .product2 .pDesc ul li {
+      color: whitesmoke; }
+
+.contacto {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-image: url(../images/charabg1.jpg); }
+  .contacto h1 {
+    padding-top: 1rem;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-shadow: -3px 3px red; }
+  .contacto .formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem; }
+    .contacto .formulario label {
+      font-family: 'Heebo', sans-serif;
+      color: whitesmoke;
+      font-size: 0.9rem; }
+    .contacto .formulario .name {
+      padding-top: 0.9rem; }
+    .contacto .formulario .version {
+      padding-top: 0.9rem; }
+    .contacto .formulario .newsletter {
+      padding-top: 0.9rem; }
+    .contacto .formulario .text {
+      padding-top: 0.9rem; }
+  .contacto .atlus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem; }
+
+.mona {
+  margin-top: 2.8rem;
+  margin-bottom: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+* {
+  box-sizing: border-box; }
+
+h1 {
+  font-family: 'Bangers', cursive;
+  color: whitesmoke;
+  font-size: 3rem; }
+
+body {
+  min-height: 100%;
+  background-image: url(../images/city_bg2.png), url(../images/filmeffect2.png), linear-gradient(to bottom right, red, 55%, black);
+  background-size: 80%, cover, cover;
+  background-position: bottom;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.header {
+  background-color: rgba(0, 0, 0, 0.714); }
+  .header .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none; }
+    .header .menu li {
+      display: inline-block;
+      padding: 1rem; }
+    .header .menu a {
+      font-family: 'Staatliches', cursive;
+      font-weight: 400;
+      font-size: 2.8rem;
+      text-decoration: none;
+      color: whitesmoke; }
+      .header .menu a:hover {
+        color: red;
+        transition: 200ms; }
+  .header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header .logo img {
+      padding: 0.4rem;
+      max-height: 10rem; }
+    .header .logo .logoalt {
+      display: none; }
+      .header .logo .logoalt img {
+        width: 30%; }
+
+footer {
+  background-color: black; }
+  footer .rrss {
+    border-left: 1px dotted blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    footer .rrss img {
+      height: 40px; }
+  footer .rrssLogoContainer img {
+    padding: 0.3rem; }
+
+.platforms {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px dotted blanchedalmond;
+  border-left: 1px dotted blanchedalmond; }
+  .platforms .platformLogoContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1.2rem; }
+    .platforms .platformLogoContainer .ps4Logo {
+      margin: 0 1rem 0 1rem;
+      height: 35px; }
+    .platforms .platformLogoContainer .steamLogo {
+      margin: 0 0.2rem 0 0.2rem;
+      height: 40px; }
+    .platforms .platformLogoContainer .switchLogo {
+      margin: 0 0.2rem 0 0.2rem; }
+  .platforms .available {
+    margin-bottom: 1.2rem; }
+    .platforms .available h3 {
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 1.8rem;
+      color: whitesmoke;
+      text-shadow: -2px 2px #ff0000ab; }
+
+.esrb {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .esrb img {
+    height: 80px; }
+
+.titular {
+  width: 100%;
+  padding-top: 1rem;
+  text-align: center; }
+
+.subtitle {
+  font-family: 'Bangers', cursive;
+  font-size: 2.2rem;
+  color: whitesmoke; }
+
+@media only screen and (max-width: 400px) {
+  .header .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+    .header .menu li {
+      display: inline;
+      text-align: center;
+      padding: 0.4rem; }
+    .header .menu a {
+      font-size: 0.8rem; }
+  .header .logo img {
+    display: none; }
+  .header .logo .logoalt {
+    display: block; } }
+
+@media only screen and (max-width: 477px) {
+  .header .menu {
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+    .header .menu li {
+      text-align: center;
+      padding: 0.4rem; }
+    .header .menu a {
+      font-size: 0.8rem; } }
+
+@media only screen and (max-width: 640px) and (min-width: 478px) {
+  .header .menu {
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+    .header .menu li {
+      text-align: center;
+      padding: 0.4rem; }
+    .header .menu a {
+      font-size: 1rem; } }
+
+@media only screen and (max-width: 767px) and (min-width: 641px) {
+  .header .menu {
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+    .header .menu li {
+      text-align: center;
+      padding: 0.4rem; }
+    .header .menu a {
+      font-size: 1.4rem; } }
+
+@media only screen and (max-width: 991px) {
+  footer .esrb {
+    margin-top: 1.2rem; }
+  footer .rrss {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem; }
+    footer .rrss img {
+      padding: 0.5rem; }
+  footer .platforms {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; } }
+
+@media only screen and (max-width: 520px) {
+  footer .esrb {
+    margin-top: 1rem; }
+  footer .rrss {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; }
+    footer .rrss img {
+      padding: 0.5rem; }
+  footer .platforms {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; }
+    footer .platforms .platformLogoContainer .ps4Logo {
+      height: 25px; }
+    footer .platforms .platformLogoContainer .steamLogo {
+      height: 30px; }
+    footer .platforms .platformLogoContainer .switchLogo {
+      height: 25px; } }
+
+@media only screen and (max-width: 391px) {
+  footer .esrb {
+    margin-top: 1rem; }
+  footer .rrss {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
+    border: 0; }
+    footer .rrss img {
+      padding: 0.2rem; }
+  footer .platforms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border: 0; }
+    footer .platforms .platformLogoContainer .ps4Logo {
+      height: 18px; }
+    footer .platforms .platformLogoContainer .steamLogo {
+      height: 22px; }
+    footer .platforms .platformLogoContainer .switchLogo {
+      height: 21px; } }
+
+@media only screen and (min-width: 1200px) {
+  .contenedorPersonaje .synopsis {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; } }
+
+@media only screen and (max-width: 1199px) {
+  .contenedorPersonaje .portrait {
+    padding-top: 1rem; } }
+
+@media only screen and (max-width: 520px) {
+  .galeria img {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto; } }
+
+@media only screen and (max-width: 999px) {
+  .atlus img {
+    display: none; } }

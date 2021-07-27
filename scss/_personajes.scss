@@ -1,0 +1,66 @@
+.contenedorPersonaje  {
+    margin-top: 2rem;
+}
+
+.charaContainer1 {
+    background-image:url(../images/charabg1.jpg);
+    .charaDesc {
+        padding-top: 2rem;
+        h2 {
+            font-family: 'Staatliches', cursive;
+            font-weight: 400;
+            font-size: 3rem;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        h3 {
+            font-family: 'Staatliches', cursive;
+            font-weight: lighter;
+            font-size: 2rem;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        p {
+            color: whitesmoke;
+        }
+    }
+    .charaPortrait {
+        display: flex;
+        align-items: center;
+        img {
+            height: 90%;
+            box-shadow: -5px 5px rgb(255, 255, 255);
+        }
+    }
+}
+.charaContainer2 {
+    background-image:url(../images/charabg2.jpg);
+    .charaDesc {
+        padding-top: 2rem;
+        h2 {
+            font-family: 'Staatliches', cursive;
+            font-weight: 400;
+            font-size: 3rem;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        h3 {
+            font-family: 'Staatliches', cursive;
+            font-weight: lighter;
+            font-size: 2rem;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        p {
+            color: whitesmoke;
+        }
+    }
+    .charaPortrait {
+        display: flex;
+        align-items: center;
+        img {
+            height: 90%;
+            box-shadow: -5px 5px rgb(255, 255, 255);
+        }
+    }
+}

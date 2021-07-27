@@ -1,0 +1,9 @@
+@mixin centerflex() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin paragraph() {
+    font-family: 'Heebo', sans-serif;
+    color: whitesmoke;
+}

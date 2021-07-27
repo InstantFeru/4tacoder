@@ -1,0 +1,116 @@
+@import "mixins";
+
+.main {
+    background-image: url(../images/bgdiv1.jpg);
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    h1 {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 5rem;
+        text-shadow: -4px 4px #00000050;
+    }
+    .desc {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 1.8rem;
+        padding-top: 2.8rem;
+        .initial {
+            box-shadow: -4px 4px #00000070;
+        }
+        p {
+            font-family: 'M PLUS 1p', sans-serif;
+            color: whitesmoke;
+        }
+    }
+    .render {
+        img {
+            max-width: 100%;
+        }
+    }
+}
+.vidya1 {
+    padding:0;
+    background-image: url(../images/bg3.jpg);
+    background-position: right;
+    box-sizing: border-box;
+    .vidya2 {
+        --bs-gutter-x: 0;
+        padding:0;
+        box-sizing: border-box;
+        img {
+            max-height: 706px;
+            position:absolute;
+            z-index:300000;
+        }
+        video {
+            border: #ffffff50;
+            max-height: 706px;
+            position: relative;
+            padding-left: 15rem;
+        }
+        .v2d {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            text-align:center;
+             h2 {
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 4rem;
+                color: black;
+                text-shadow: -4px 4px #ffffff; 
+            }
+        }
+    }
+}
+.trailer {
+    background-image: url(../images/bgdiv2.jpg);
+    background-size: cover;
+    .descvideo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        p {
+            font-family: 'Heebo', sans-serif;
+            font-weight: 800;
+            color: black;
+            padding-top: 0;
+            margin-top: 0;
+        }
+        .subtitle {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 4rem;
+            color: black;
+            text-shadow: -4px 4px #ffffff; 
+            padding-top: 2rem;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+    }
+    .iframewrapper {
+        margin-top: 5rem;
+        position: relative;
+        overflow: hidden;
+        height: 50%;
+        width: 100%;
+        padding-top: 56.25%;
+        iframe {
+            border-radius: 1rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border:none;
+        }
+}
+}

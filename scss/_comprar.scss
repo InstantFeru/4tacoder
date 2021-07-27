@@ -1,0 +1,73 @@
+.product1 {
+    background-image: url(../images/bgdiv3.jpg);
+    .pImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pDesc {
+        padding-top: 2rem;
+        h2 {
+            font-family: 'Staatliches', cursive;
+            font-weight: 400;
+            font-size: 2.2rem;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        h5 {
+            font-family: 'Staatliches', cursive;
+            font-weight: lighter;
+            font-size: 1.3rem;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        p {
+            color: whitesmoke;
+        }
+        ul {
+            li {
+                color: whitesmoke;
+            }
+        }
+    }
+}
+.product2 {
+    background-image: url(../images/bgdiv4.jpg);
+    background-size: cover;
+    .pImg {
+        padding-top: 3rem;
+        padding-bottom: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 100%;
+        }
+    }
+    .pDesc {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        h2 {
+            font-family: 'Staatliches', cursive;
+            font-weight: 400;
+            font-size: 2.2rem;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        h5 {
+            font-family: 'Staatliches', cursive;
+            font-weight: lighter;
+            font-size: 1.3rem;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        p {
+            color: whitesmoke;
+        }
+        ul {
+            li {
+                color: whitesmoke;
+            }
+        }
+    }
+}
