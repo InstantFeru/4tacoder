@@ -19,8 +19,12 @@
     .main .desc p {
       font-family: 'M PLUS 1p', sans-serif;
       color: whitesmoke; }
-  .main .render img {
-    max-width: 100%; }
+  .main .render {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .main .render img {
+      max-width: 100%; }
 
 .vidya1 {
   padding: 0;
@@ -99,9 +103,10 @@
   margin-top: 2rem; }
 
 .charaContainer1 {
-  background-image: url(../images/charabg1.jpg); }
+  background-image: url(../images/charabg1.jpg);
+  padding-bottom: 1rem; }
   .charaContainer1 .charaDesc {
-    padding-top: 2rem; }
+    padding-top: 1.8rem; }
     .charaContainer1 .charaDesc h2 {
       font-family: 'Staatliches', cursive;
       font-weight: 400;
@@ -126,7 +131,7 @@
 .charaContainer2 {
   background-image: url(../images/charabg2.jpg); }
   .charaContainer2 .charaDesc {
-    padding-top: 2rem; }
+    padding-top: 1.8rem; }
     .charaContainer2 .charaDesc h2 {
       font-family: 'Staatliches', cursive;
       font-weight: 400;
@@ -220,6 +225,10 @@
       color: whitesmoke; }
     .product1 .pDesc ul li {
       color: whitesmoke; }
+    .product1 .pDesc .buybutton {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
 
 .product2 {
   background-image: url(../images/bgdiv4.jpg);
@@ -251,6 +260,10 @@
       color: whitesmoke; }
     .product2 .pDesc ul li {
       color: whitesmoke; }
+    .product2 .pDesc .buybutton {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
 
 .contacto {
   margin-top: 4rem;
@@ -289,9 +302,14 @@
 .mona {
   margin-top: 2.8rem;
   margin-bottom: 2.8rem;
+  padding-left: 0;
+  padding-right: 0;
   display: flex;
   align-items: center;
   justify-content: center; }
+  .mona .chara {
+    padding-left: 0;
+    padding-right: 0; }
 
 * {
   box-sizing: border-box; }
@@ -317,18 +335,20 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none; }
-    .header .menu li {
-      display: inline-block;
-      padding: 1rem; }
-    .header .menu a {
-      font-family: 'Staatliches', cursive;
-      font-weight: 400;
-      font-size: 2.8rem;
-      text-decoration: none;
-      color: whitesmoke; }
-      .header .menu a:hover {
-        color: red;
-        transition: 200ms; }
+    .header .menu ul {
+      margin-top: 1rem; }
+      .header .menu ul li {
+        display: inline-block;
+        padding: 1rem; }
+      .header .menu ul a {
+        font-family: 'Staatliches', cursive;
+        font-weight: 400;
+        font-size: 2.8rem;
+        text-decoration: none;
+        color: whitesmoke; }
+        .header .menu ul a:hover {
+          color: red;
+          transition: 200ms; }
   .header .logo {
     display: flex;
     justify-content: center;
@@ -400,7 +420,7 @@ footer {
   font-size: 2.2rem;
   color: whitesmoke; }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 399px) {
   .header .menu {
     display: flex;
     flex-wrap: wrap;
@@ -413,18 +433,19 @@ footer {
       justify-content: center;
       align-items: center;
       text-align: center; }
-    .header .menu li {
-      display: inline;
-      text-align: center;
-      padding: 0.4rem; }
-    .header .menu a {
-      font-size: 0.8rem; }
+      .header .menu ul li {
+        display: inline;
+        text-align: center;
+        padding: 0.8rem;
+        padding-bottom: 0.4rem; }
+        .header .menu ul li a {
+          font-size: 1.5rem; }
   .header .logo img {
     display: none; }
   .header .logo .logoalt {
     display: block; } }
 
-@media only screen and (max-width: 477px) {
+@media only screen and (max-width: 433px) and (min-width: 400px) {
   .header .menu {
     justify-content: center; }
     .header .menu ul {
@@ -434,13 +455,14 @@ footer {
       justify-content: center;
       align-items: center;
       text-align: center; }
-    .header .menu li {
-      text-align: center;
-      padding: 0.4rem; }
-    .header .menu a {
-      font-size: 0.8rem; } }
+      .header .menu ul li {
+        text-align: center;
+        padding: 0.9rem;
+        padding-bottom: 0.2rem; }
+        .header .menu ul li a {
+          font-size: 1rem; } }
 
-@media only screen and (max-width: 640px) and (min-width: 478px) {
+@media only screen and (max-width: 475px) and (min-width: 434px) {
   .header .menu {
     justify-content: center; }
     .header .menu ul {
@@ -450,13 +472,14 @@ footer {
       justify-content: center;
       align-items: center;
       text-align: center; }
-    .header .menu li {
-      text-align: center;
-      padding: 0.4rem; }
-    .header .menu a {
-      font-size: 1rem; } }
+      .header .menu ul li {
+        text-align: center;
+        padding: 0.9rem;
+        padding-bottom: 0.2rem; }
+        .header .menu ul li a {
+          font-size: 1.1rem; } }
 
-@media only screen and (max-width: 767px) and (min-width: 641px) {
+@media only screen and (max-width: 575px) and (min-width: 476px) {
   .header .menu {
     justify-content: center; }
     .header .menu ul {
@@ -466,11 +489,151 @@ footer {
       justify-content: center;
       align-items: center;
       text-align: center; }
-    .header .menu li {
-      text-align: center;
-      padding: 0.4rem; }
-    .header .menu a {
-      font-size: 1.4rem; } }
+      .header .menu ul li {
+        text-align: center;
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+        padding-bottom: 0.1rem; }
+        .header .menu ul li a {
+          font-size: 1.2rem; } }
+
+@media only screen and (max-width: 640px) and (min-width: 576px) {
+  .header .menu {
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .header .menu ul li {
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 0.1rem; }
+        .header .menu ul li a {
+          font-size: 1.6rem; } }
+
+@media only screen and (max-width: 676px) and (min-width: 641px) {
+  .header .menu {
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .header .menu ul li {
+        text-align: center;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 0.2rem; }
+        .header .menu ul li a {
+          font-size: 1.5rem; } }
+
+@media only screen and (max-width: 767px) and (min-width: 677px) {
+  .header .menu {
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .header .menu ul li {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem; }
+        .header .menu ul li a {
+          font-size: 2rem; } }
+
+@media only screen and (max-width: 813px) and (min-width: 768px) {
+  .header .menu {
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .header .menu ul li {
+        text-align: center;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem; }
+        .header .menu ul li a {
+          font-size: 1.7rem; } }
+
+@media only screen and (max-width: 928px) and (min-width: 814px) {
+  .header .menu {
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .header .menu ul li {
+        text-align: center;
+        padding-left: 0.9rem;
+        padding-right: 0.9rem; }
+        .header .menu ul li a {
+          font-size: 1.8rem; } }
+
+@media only screen and (max-width: 991px) and (min-width: 928px) {
+  .header .menu {
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .header .menu ul li {
+        text-align: center;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem; }
+        .header .menu ul li a {
+          font-size: 1.9rem; } }
+
+@media only screen and (max-width: 1106px) and (min-width: 992px) {
+  .header .menu {
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .header .menu ul li {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem; }
+        .header .menu ul li a {
+          font-size: 2.2rem; } }
+
+@media only screen and (max-width: 1254px) and (min-width: 1106px) {
+  .header .menu {
+    justify-content: center; }
+    .header .menu ul {
+      margin: 0;
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .header .menu ul li {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem; }
+        .header .menu ul li a {
+          font-size: 2.5rem; } }
 
 @media only screen and (max-width: 991px) {
   footer .esrb {
@@ -537,21 +700,144 @@ footer {
     footer .platforms .platformLogoContainer .switchLogo {
       height: 21px; } }
 
+@media only screen and (max-width: 297px) {
+  footer .platforms .platformLogoContainer .ps4Logo {
+    height: 15px; }
+  footer .platforms .platformLogoContainer .steamLogo {
+    height: 18px; }
+  footer .platforms .platformLogoContainer .switchLogo {
+    height: 18px; } }
+
+@media only screen and (max-width: 991px) {
+  .main h1 {
+    text-align: center; }
+  .main .desc p {
+    margin-top: 1rem; }
+  .main .desc .initial {
+    margin-top: 1rem; } }
+
+@media only screen and (max-width: 700px) {
+  .main {
+    padding-top: 1.1rem; }
+    .main h1 {
+      text-align: center; }
+    .main .desc {
+      padding-top: 1.5rem; }
+      .main .desc p {
+        margin-top: 2rem; }
+      .main .desc .initial {
+        margin-top: 2rem; } }
+
+@media only screen and (max-width: 390px) {
+  .main h1 {
+    font-size: 4.5rem; } }
+
+@media only screen and (max-width: 370px) {
+  .main .desc {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem; }
+  .main h1 {
+    font-size: 3.5rem; } }
+
 @media only screen and (min-width: 1200px) {
-  .contenedorPersonaje .synopsis {
+  .charaContainer .synopsis {
     display: flex;
     flex-wrap: wrap;
     align-items: center; } }
 
 @media only screen and (max-width: 1199px) {
-  .contenedorPersonaje .portrait {
+  .charaContainer1 .charaPortrait {
     padding-top: 1rem; } }
+
+@media only screen and (min-width: 901px) {
+  .charaContainer1 {
+    padding-bottom: 2rem; }
+    .charaContainer1 .charaPortrait {
+      justify-content: center;
+      padding-top: 1rem; }
+      .charaContainer1 .charaPortrait img {
+        height: auto; }
+  .charaContainer2 {
+    padding-bottom: 2rem; }
+    .charaContainer2 .charaPortrait {
+      justify-content: center;
+      padding-top: 1rem; }
+      .charaContainer2 .charaPortrait img {
+        height: auto; } }
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .charaContainer1 {
+    padding-bottom: 2rem; }
+    .charaContainer1 .charaPortrait {
+      justify-content: center;
+      padding-top: 1rem; }
+      .charaContainer1 .charaPortrait img {
+        height: auto; }
+    .charaContainer1 .charaDesc {
+      text-align: center; }
+  .charaContainer2 {
+    padding-bottom: 2rem; }
+    .charaContainer2 .charaPortrait {
+      justify-content: center;
+      padding-top: 1rem; }
+      .charaContainer2 .charaPortrait img {
+        height: auto; }
+    .charaContainer2 .charaDesc {
+      text-align: center; } }
+
+@media only screen and (max-width: 767px) {
+  .charaContainer1 {
+    padding-bottom: 2rem; }
+    .charaContainer1 .charaPortrait {
+      justify-content: center;
+      padding-top: 1rem; }
+    .charaContainer1 .charaDesc {
+      text-align: center; }
+  .charaContainer2 {
+    padding-bottom: 2rem; }
+    .charaContainer2 .charaPortrait {
+      justify-content: center;
+      padding-top: 1rem; }
+    .charaContainer2 .charaDesc {
+      text-align: center; } }
 
 @media only screen and (max-width: 520px) {
   .galeria img {
     width: 90%;
     height: 80%;
     margin: 0 auto; } }
+
+@media only screen and (max-width: 1315px) {
+  .product1 .pDesc {
+    padding-bottom: 2rem; } }
+
+@media only screen and (max-width: 767px) {
+  .product2 {
+    background-image: url(../images/bg2.jpg); }
+    .product2 .pImg img {
+      background-color: rgba(228, 224, 224, 0.226); } }
+
+@media only screen and (max-width: 357px) {
+  .product1 ul li {
+    font-size: 0.8rem; }
+  .product2 ul li {
+    font-size: 0.8rem; } }
+
+@media only screen and (max-width: 293px) {
+  .product1 ul li {
+    font-size: 0.6rem; }
+  .product2 ul li {
+    font-size: 0.6rem; } }
+
+@media only screen and (max-width: 328px) {
+  .row {
+    --bs-gutter-x: 0; }
+  .mona .chara {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .mona .chara img {
+      width: 70%; } }
 
 @media only screen and (max-width: 999px) {
   .atlus img {

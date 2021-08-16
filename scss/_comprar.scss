@@ -29,6 +29,11 @@
                 color: whitesmoke;
             }
         }
+        .buybutton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
 .product2 {
@@ -68,6 +73,11 @@
             li {
                 color: whitesmoke;
             }
+        }
+        .buybutton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 }

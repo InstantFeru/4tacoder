@@ -44,5 +44,11 @@
 .mona {
     margin-top: 2.8rem;
     margin-bottom: 2.8rem;
+    padding-left: 0;
+    padding-right: 0;
     @include centerflex ();
+    .chara {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
